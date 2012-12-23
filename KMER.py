@@ -11,5 +11,5 @@ def kmers(n):
 
 if __name__ == '__main__':
     s = str(SeqIO.read(sys.stdin, 'fasta').seq)
-    c = Counter([s[i:i+4] for i in range(len(s) - 4)])
+    c = Counter([s[i:i+4] for i in range(len(s) - 3)])
     print(' '.join(str(c[kmer]) for kmer in kmers(4)))

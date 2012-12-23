@@ -25,5 +25,6 @@ mass = {
     'Y': 163.06333
 }
 
+
 if __name__ == '__main__':
     print(sum([mass[c] for c in sys.stdin.read().strip()]))
