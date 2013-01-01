@@ -41,5 +41,8 @@ nosetests.xml
 .project
 .pydevproject
 
+# Rust debugging
+*.dSYM/
+
 # Rosalind I/O
 *.txt
