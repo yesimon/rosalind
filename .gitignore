@@ -46,3 +46,6 @@ nosetests.xml
 
 # Rosalind I/O
 *.txt
+
+# Java
+*.class
