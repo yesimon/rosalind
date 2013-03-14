@@ -1,0 +1,7 @@
+(ns rosalind.core-test
+  (:use clojure.test
+        rosalind.core))
+
+(deftest a-test
+  (testing "FIXME, I fail."
+    (is (= 0 1))))
